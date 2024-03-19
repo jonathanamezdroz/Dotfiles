@@ -80,6 +80,7 @@ alias lu='ls -ltur'   # Sort by/show access time, most recent last.
 alias ll='ls -lv --group-directories-first'
 alias lr='ll -R'
 alias la='ll -a'
+alias ld='ll -d .*'   #Only show dotfiles
 
 alias svim='sudo vim'
 alias root='sudo su'
@@ -102,6 +103,8 @@ alias l="ls -h --color=auto"
 alias p="ipython --profile=etel"
 alias t="task"
 alias v="vim"
+alias h="hostname -I"
+
 
 alias chrome="'/cygdrive/c/Program Files (x86)/Google/Chrome/Application/chrome.exe'"
 alias todo="vim ~/.notes/todo.md"
@@ -109,6 +112,20 @@ alias note="vim ~/.notes/notes.md"
 
 # WSL
 alias e='explorer.exe .'
+alias shut="sudo shutdown now"
+
+#start VPN
+alias vpn='cd ~/SolarStratos/mcc04OVPN && ./startvpn.sh'
+
+#ssh
+alias apu2='ssh telemetry@192.168.4.36'
+alias live='ssh jamezdroz@192.168.4.200'
+
+#Programs
+alias c="code"
+alias py="python3"
+
+
 
 # Easily extract any kind of atchives.
 extract () {

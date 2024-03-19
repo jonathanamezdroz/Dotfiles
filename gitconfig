@@ -1,11 +1,11 @@
 # .gitconfig
 # Yves Chevallier 2017
 [user]
-	name = Yves Chevallier
-	email = nowox@x0x.ch
+	name = Jonathan Amez-Droz
+	email = jonathan.amez-droz@bluewin.ch
 
 [github]
-    user  = nowox
+    user  = jonathanamezdroz
     token = token
 
 [credential]
@@ -178,3 +178,5 @@
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
+[maintenance]
+	repo = /home/jonathanamezdroz/SolarStratos/TraitementLogs
