@@ -3,7 +3,7 @@
 To install these dotfiles
 
 ```c
-git clone https://github.com/jonathanamezdroz/Dofiles.git
+git clone https://github.com/jonathanamezdroz/Dotfiles.git
 cd .dotfiles
 git submodule init
 git submodule update
